@@ -7,13 +7,13 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Private competition data and generated artifacts
-data/
-datasets/
-private_data/
-raw_data/
-artifacts/
-models/
-checkpoints/
+/data/
+/datasets/
+/private_data/
+/raw_data/
+/artifacts/
+/models/
+/checkpoints/
 *.pkl
 *.joblib
 *.cbm

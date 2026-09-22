@@ -1,13 +1,16 @@
-# Public release checklist
+# Public release audit
 
-- [ ] No competition datasets included
-- [ ] No hidden-test files or submission JSONs included
-- [ ] No trained model artifact included
-- [ ] No secrets, tokens, passwords, or credentials
-- [ ] No personal paths, team IDs, application IDs, or personal metadata
-- [ ] README reviewed for honest methodological claims
-- [ ] License reviewed and ownership confirmed
-- [ ] Dependency versions reviewed
-- [ ] Commands and tests run locally
-- [ ] `git status` and full diff reviewed
-- [ ] Human approval obtained before commit or push
+Verified during the corrective public-release audit:
+
+- [x] No competition datasets included
+- [x] No hidden-test files or submission JSONs included
+- [x] No trained model artifact included
+- [x] No secrets, tokens, passwords, or credentials
+- [x] No personal paths, team IDs, application IDs, or personal metadata
+- [x] No proprietary presentation or third-party event branding included
+- [x] README and methodology wording reviewed for technical accuracy
+- [x] License completed using the repository's existing Git author metadata
+- [x] Dependency versions reviewed
+- [x] Local editable install, tests, and CLI help commands verified
+- [x] Full diff and tracked-file review completed before the corrective commit
+- [x] Authorization for the corrective commit and push received
