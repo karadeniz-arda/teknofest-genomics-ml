@@ -1,0 +1,34 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Private competition data and generated artifacts
+data/
+datasets/
+private_data/
+raw_data/
+artifacts/
+models/
+checkpoints/
+*.pkl
+*.joblib
+*.cbm
+*.bin
+*.csv
+*.tsv
+*.parquet
+*.log
+*.json
+*.zip
+
+# Explicitly retain the synthetic schema example
+!examples/
+!examples/example_schema.csv
+
+.env
+.env.*
+!.env.example
